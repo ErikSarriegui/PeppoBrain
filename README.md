@@ -7,6 +7,8 @@
 ## 🤔 **¿Qué es esto?**
 Porque hasta Pepe merece una oportunidad para pensar. Una librería de aprendizaje automático hecha a partir de módulos matemáticos. No es la que mejor rendimiento tiene (Pepe no es muy listo) ni la que más soporte tiene (Pepe se siente solo).
 
+## 🕴️ **Modo Serio**
+
 ## 🚀 **Inicio Rápido**
 Puedes utilizar a Pepe en Colab. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ErikSarriegui/PeppoBrain/blob/main/quickstart.ipynb)
 
