@@ -1,3 +1,3 @@
-from .model import Model
-from .capa import CapaLinear
-from .activations import ReLU, Softmax, Sigmoid
+from .activations import *
+from .capa import *
+from .model import *
