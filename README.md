@@ -29,7 +29,7 @@ modelo.entrenar(x, y, 0.3, 50)
 ## **⚠️ Advertencia**
 Ni Pepe ni nosotros garantizamos el correcto funcionamiento de las redes neuronales generadas con esta librería. Además, Pepe no ha aprendido a usar GPUs, por lo que su velocidad de pensar es muy lenta. Pepe está haciendo su mejor esfuerzo, por favor ten paciencia.
 
-## **📝 Licencia**
+## **📝 Licencia (MIT)**
 Haz lo que quieras con esto. Pepe está demasiado ocupado intentando entender la retropropagación como para preocuparse por licencias.
 
 *Disclaimer: Ningún meme ni rana fue dañado durante el desarrollo de este proyecto, aunque algunas neuronas pueden haber quedado ligeramente confundidas.*
