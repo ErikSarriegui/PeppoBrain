@@ -1,2 +1,2 @@
-from .utils import utils
-from . import nn
+from utils import utils
+import nn
