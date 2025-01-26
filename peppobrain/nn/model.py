@@ -1,5 +1,4 @@
 import numpy as np
-from .. import utils
 
 """
 ====================================
@@ -26,6 +25,11 @@ class Model:
     def inference(self, X):
         A, _, _ = self(X)
         return A
+    
+    def calculate_loss(self, predicciones, etiquetas):
+        m = etiquetas.shape[1]
+        loss = -np.sum(etiquetas * np.log(predicciones)) / m
+        return loss
 
     def retropropagacion(self, Y, activaciones, Zs, tasa_aprendizaje):
         m = Y.size/10
@@ -50,6 +54,5 @@ class Model:
             self.retropropagacion(Y, activaciones, Zs, tasa_aprendizaje)
 
             if i % (epochs / 10) == 0:
-                predicciones = np.argmax(A, axis=0)
-                exactitud = utils.obtener_exactitud(predicciones, Y)
-                print(f"Epochs: {i} // Exactitud: {exactitud * 100}%")
+                loss = self.calculate_loss(A, Y)
+                print(f"Epochs: {i} | Loss: {loss}")
