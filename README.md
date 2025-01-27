@@ -8,7 +8,7 @@
 Porque hasta Pepe merece una oportunidad para pensar. Una librería de aprendizaje automático hecha a partir de módulos matemáticos. No es la que mejor rendimiento tiene (Pepe no es muy listo) ni la que más soporte tiene (Pepe se siente solo).
 
 ## 🕴️ **Modo Serio**
-Para aprender sobre Redes Neuronales, implementamos con NumPy un Multilayer Perceptron (MLP) y una API de alto nivel con la que construirlos. Un MLP es una red neuronal feedforward con capas (entrada, ocultas y salida) que aprende relaciones no lineales con funciones de activación (sigmoide, tanh, ReLU, etc.). Usando NumPy, definimos estas capas, inicializamos pesos y biases, implementamos la propagación hacia adelante (cálculo de la salida) y la retropropagación (cálculo de gradientes para optimizar pesos y biases con Descenso de Gradiente, etc.).
+Para aprender sobre Redes Neuronales, implementamos con NumPy un Multilayer Perceptron (MLP) y una API de alto nivel con la que construirlos. Un MLP es una red neuronal feedforward con capas (entrada, ocultas y salida) que aprende relaciones no lineales con funciones de activación (sigmoide, softmax, ReLU, etc.). Usando NumPy, definimos estas capas, inicializamos pesos y biases, implementamos la propagación hacia adelante (cálculo de la salida) y la retropropagación (cálculo de gradientes para optimizar pesos y biases con Descenso de Gradiente, etc.).
 
 Al implementar un MLP con NumPy, se obtiene una comprensión profunda de los mecanismos internos de las redes neuronales, lo que facilita el uso y la adaptación de bibliotecas de aprendizaje profundo de alto nivel como TensorFlow o PyTorch.
 
