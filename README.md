@@ -7,6 +7,9 @@
 ## 🤔 **¿Qué es esto?**
 Porque hasta Pepe merece una oportunidad para pensar. Una librería de aprendizaje automático hecha a partir de módulos matemáticos. No es la que mejor rendimiento tiene (Pepe no es muy listo) ni la que más soporte tiene (Pepe se siente solo).
 
+## **⚠️ Advertencia**
+Ni Pepe ni nosotros garantizamos el correcto funcionamiento de las redes neuronales generadas con esta librería. Además, Pepe no ha aprendido a usar GPUs, por lo que su velocidad de pensar es muy lenta. Pepe está haciendo su mejor esfuerzo, por favor ten paciencia.
+
 ## 🕴️ **Modo Serio**
 Para aprender sobre Redes Neuronales, implementamos con NumPy un Multilayer Perceptron (MLP) y una API de alto nivel con la que construirlos. Un MLP es una red neuronal feedforward con capas (entrada, ocultas y salida) que aprende relaciones no lineales con funciones de activación (sigmoide, softmax, ReLU, etc.). Usando NumPy, definimos estas capas, inicializamos pesos y biases, implementamos la propagación hacia adelante (cálculo de la salida) y la retropropagación (cálculo de gradientes para optimizar pesos y biases con Descenso de Gradiente, etc.).
 
@@ -30,9 +33,6 @@ modelo.entrenar(x, y, 0.3, 50)
 ```
 ## **📦 Instalación**
 `pip install git+https://github.com/ErikSarriegui/PeppoBrain`
-
-## **⚠️ Advertencia**
-Ni Pepe ni nosotros garantizamos el correcto funcionamiento de las redes neuronales generadas con esta librería. Además, Pepe no ha aprendido a usar GPUs, por lo que su velocidad de pensar es muy lenta. Pepe está haciendo su mejor esfuerzo, por favor ten paciencia.
 
 ## **📝 Licencia (MIT)**
 Haz lo que quieras con esto. Pepe está demasiado ocupado intentando entender la retropropagación como para preocuparse por licencias.
